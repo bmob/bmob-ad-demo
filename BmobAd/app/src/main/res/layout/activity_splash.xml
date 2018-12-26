@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@mipmap/ic_launcher"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical">
+
+
+    <cn.bmob.ad.type.FeedsSplashView
+        android:id="@+id/fsv"
+        android:layout_width="match_parent"
+        app:countTime ="5"
+        android:layout_height="match_parent">
+
+    </cn.bmob.ad.type.FeedsSplashView>
+</LinearLayout>

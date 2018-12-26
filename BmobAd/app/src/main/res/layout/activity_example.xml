@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+
+        <Button
+            android:id="@+id/tv_splash"
+            android:layout_width="match_parent"
+            android:background="@color/colorPrimary"
+            android:layout_margin="16dp"
+            android:textColor="#FFFFFF"
+            android:layout_height="wrap_content"
+            android:text="开屏引导页广告"/>
+
+
+        <Button
+            android:id="@+id/tv_interstitial"
+            android:background="@color/colorPrimary"
+            android:layout_margin="16dp"
+            android:textColor="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="插屏广告，也叫弹窗广告"/>
+
+        <Button
+            android:id="@+id/tv_banner_multi"
+            android:layout_width="match_parent"
+            android:background="@color/colorPrimary"
+            android:layout_margin="16dp"
+            android:textColor="#FFFFFF"
+            android:layout_height="wrap_content"
+            android:text="banner广告，也叫横幅广告，多张"/>
+
+        <Button
+            android:id="@+id/tv_banner_single"
+            android:layout_width="match_parent"
+            android:background="@color/colorPrimary"
+            android:layout_margin="16dp"
+            android:textColor="#FFFFFF"
+            android:layout_height="wrap_content"
+            android:text="banner广告，也叫横幅广告，单张"/>
+
+
+        <Button
+            android:id="@+id/tv_float"
+            android:layout_width="match_parent"
+            android:background="@color/colorPrimary"
+            android:layout_margin="16dp"
+            android:textColor="#FFFFFF"
+            android:layout_height="wrap_content"
+            android:text="浮标广告，也叫悬浮窗广告"/>
+
+
+        <Button
+            android:id="@+id/tv_app_wall"
+            android:layout_width="match_parent"
+            android:background="@color/colorPrimary"
+            android:layout_margin="16dp"
+            android:textColor="#FFFFFF"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            android:text="应用墙广告"/>
+
+        <Button
+            android:id="@+id/tv_push"
+            android:background="@color/colorPrimary"
+            android:layout_margin="16dp"
+            android:textColor="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="推送广告"/>
+
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FeedsAbsListView">
+        <!-- Drawable used to indicate the currently selected item in the list. -->
+        <attr name="android:listSelector"/>
+        <!-- When set to true, the selector will be drawn over the selected item.
+             Otherwise the selector is drawn behind the selected item. The default
+             value is false. -->
+        <attr name="android:drawSelectorOnTop"/>
+        <!-- Used by ListView and GridView to stack their content from the bottom. -->
+        <attr name="android:stackFromBottom"/>
+        <!-- When set to true, the list uses a drawing cache during scrolling.
+             This makes the rendering faster but uses more memory. The default
+             value is true. -->
+        <attr name="android:scrollingCache"/>
+        <!-- Sets the transcript mode for the list. In transcript mode, the list
+             scrolls to the bottom to make new items visible when they are added. -->
+        <attr name="android:transcriptMode"/>
+        <!-- Indicates that this list will always be drawn on top of solid, single-color
+             opaque background. This allows the list to optimize drawing. -->
+        <attr name="android:cacheColorHint"/>
+        <!-- When set to true, the list will use a more refined calculation
+             method based on the pixels height of the items visible on screen. This
+             property is set to true by default but should be set to false if your adapter
+             will display items of varying heights. When this property is set to true and
+             your adapter displays items of varying heights, the scrollbar thumb will
+             change size as the user scrolls through the list. When set to fale, the list
+             will use only the number of items in the adapter and the number of items visible
+             on screen to determine the scrollbar's properties. -->
+        <attr name="android:smoothScrollbar"/>
+        <!-- Defines the choice behavior for the view. By default, lists do not have
+             any choice behavior. By setting the choiceMode to singleChoice, the list
+             allows up to one item to be in a chosen state. By setting the choiceMode to
+             multipleChoice, the list allows any number of items to be chosen.
+             Finally, by setting the choiceMode to multipleChoiceModal the list allows
+             any number of items to be chosen in a special selection mode.
+             The application will supply a
+             {@link android.widget.AbsListView.MultiChoiceModeListener} using
+             {@link android.widget.AbsListView#setMultiChoiceModeListener} to control the
+             selection mode. This uses the {@link android.view.ActionMode} API. -->
+        <attr name="android:choiceMode"/>
+    </declare-styleable>
+    <declare-styleable name="ListView">
+        <!-- Reference to an array resource that will populate the ListView.  For static content,
+             this is simpler than populating the ListView programmatically. -->
+        <attr name="android:entries"/>
+        <!-- Drawable or color to draw between list items. -->
+        <attr name="android:divider"/>
+        <!-- Height of the divider. Will use the intrinsic height of the divider if this
+             is not specified. -->
+        <attr name="android:dividerHeight"/>
+        <!-- When set to false, the ListView will not draw the divider after each header view.
+             The default value is true. -->
+        <attr name="android:headerDividersEnabled"/>
+        <!-- When set to false, the ListView will not draw the divider before each footer view.
+             The default value is true. -->
+        <attr name="android:footerDividersEnabled"/>
+        <!-- Drawable to draw above list content. -->
+        <attr name="android:overScrollHeader"/>
+        <!-- Drawable to draw below list content. -->
+        <attr name="android:overScrollFooter"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="FeedsFlashView">
+        <attr name="countTime" format="integer"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="GifView">
+        <attr name="gif" format="reference"/>
+        <attr name="paused" format="boolean"/>
+    </declare-styleable>
+
+
+    <style name="Widget.GifView" parent="@android:style/Widget"/>
+
+
+    <style name="Theme.CustomDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:backgroundDimAmount">0.4</item>
+    </style>
+
+
+
+
+
+    <declare-styleable name="FeedsBannerMultiView">
+        <attr name="feeds_delay_time" format="integer"/>
+        <attr name="feeds_scroll_time" format="integer"/>
+        <attr name="feeds_is_auto_play" format="boolean"/>
+        <attr name="feeds_title_background" format="color|reference"/>
+        <attr name="feeds_title_textcolor" format="color"/>
+        <attr name="feeds_title_textsize" format="dimension"/>
+        <attr name="feeds_title_height" format="dimension"/>
+        <attr name="feeds_indicator_width" format="dimension"/>
+        <attr name="feeds_indicator_height" format="dimension"/>
+        <attr name="feeds_indicator_margin" format="dimension"/>
+        <attr name="feeds_indicator_drawable_selected" format="reference"/>
+        <attr name="feeds_indicator_drawable_unselected" format="reference"/>
+        <attr name="feeds_banner_layout" format="reference"/>
+        <attr name="feeds_banner_default_image" format="reference"/>
+        <attr name="feeds_image_scale_type" format="enum">
+            <enum name="center" value="0"/>
+            <enum name="center_crop" value="1"/>
+            <enum name="center_inside" value="2"/>
+            <enum name="fit_center" value="3"/>
+            <enum name="fit_end" value="4"/>
+            <enum name="fit_start" value="5"/>
+            <enum name="fit_xy" value="6"/>
+            <enum name="matrix" value="7"/>
+        </attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="FeedsBannerSingleView">
+        <attr name="size" format="enum">
+            <enum name="Large" value="0"/>
+            <enum name="Small" value="1"/>
+        </attr>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:orientation="vertical"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <cn.bmob.ad.type.FeedsDobberView
+        android:layout_width="60dp"
+        android:id="@+id/fdv"
+        android:layout_gravity="center|right"
+        android:layout_height="60dp">
+    </cn.bmob.ad.type.FeedsDobberView>
+
+
+</FrameLayout>

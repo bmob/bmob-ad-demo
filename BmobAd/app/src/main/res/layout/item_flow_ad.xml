@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_feed"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:layout_marginLeft="16sp"
+        android:layout_marginRight="16sp"
+        android:layout_marginTop="6dp"
+        android:text="娱乐圈单集片酬排行女星，杨幂才第五，第一是她，网友称不服！"
+        android:textColor="#555555"
+        android:textSize="16sp"/>
+
+    <LinearLayout
+        android:id="@+id/ll_images_multi"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/iv_single"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="6dp"
+        android:adjustViewBounds="true"
+        android:cropToPadding="true"
+        android:maxHeight="160dp"
+        android:scaleType="centerCrop"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:id="@+id/ll_labels"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginBottom="6dp"
+        android:layout_marginLeft="16sp"
+        android:layout_marginRight="16sp"
+        android:orientation="horizontal">
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginRight="16dp"
+        android:background="#DDDDDD"></View>
+</LinearLayout>
