@@ -10,6 +10,7 @@ import android.net.Uri;
 import android.net.http.SslError;
 import android.os.Build;
 import android.support.annotation.RequiresApi;
+import android.util.Log;
 import android.view.View;
 import android.webkit.CookieManager;
 import android.webkit.DownloadListener;
@@ -165,6 +166,7 @@ public class FeedsWebView extends WebView {
             if ("se:blank".equals(title) || "about:blank".equals(title)) {
                 view.stopLoading();
                 view.loadUrl(ERROR_PAGE);
+                Log.e("error","blank");
             }
         }
 
@@ -278,6 +280,7 @@ public class FeedsWebView extends WebView {
         @Override
         public void onReceivedError(WebView view, WebResourceRequest request, WebResourceError error) {
             super.onReceivedError(view, request, error);
+            Log.e("error",error.getDescription().toString());
             view.loadUrl(ERROR_PAGE);
         }
 
@@ -286,6 +289,7 @@ public class FeedsWebView extends WebView {
         public void onReceivedError(WebView view, int errorCode, String description, String failingUrl) {
             super.onReceivedError(view, errorCode, description, failingUrl);
             view.loadUrl(ERROR_PAGE);
+            Log.e("error",description);
         }
 
         @Override
