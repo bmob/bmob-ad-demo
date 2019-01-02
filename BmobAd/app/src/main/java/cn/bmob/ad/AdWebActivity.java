@@ -20,16 +20,10 @@ public class AdWebActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-
-
-
         mFeedsWebView = new FeedsWebView(this);
-
         addContentView(mFeedsWebView, new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
-
-        mFeedsWebView.loadUrl("https://api.lomark.cn/landingview?cid=1005&idfa=__UDID__");
-
+        String url = getIntent().getStringExtra(Config.INFO_URL);
+        mFeedsWebView.loadUrl(url);
     }
 
 
