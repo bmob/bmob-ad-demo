@@ -36,12 +36,18 @@ mFsv.setCountTime(6);
 //图片素材地址、广告链接地址
 mFsv.loadFeeds("图片素材地址","广告链接地址");
 ```
+<img src="https://github.com/bmob/bmob-ad-demo/blob/master/%E5%BC%80%E5%B1%8F%E5%B9%BF%E5%91%8A.png" width = 30% height = 30%>
+
+
 ### 2、插屏弹窗
 ```
 mFeedsInterstitialView  = new FeedsInterstitialView(this);
 //图片地址、广告地址
 mFeedsInterstitialView.loadFeeds("图片素材地址","广告链接地址");
 ```
+<img src="https://github.com/bmob/bmob-ad-demo/blob/master/%E6%8F%92%E5%B1%8F%E5%B9%BF%E5%91%8A.png" width = 30% height = 30%>
+
+
 ### 3、单张横幅Banner
 ```
 //图片地址、广告地址
@@ -49,6 +55,8 @@ mBannerTail.loadFeeds("图片素材地址","广告链接地址");
 mBannerTop.loadFeeds("图片素材地址","广告链接地址");
 
 ```
+<img src="https://github.com/bmob/bmob-ad-demo/blob/master/banner%E5%B9%BF%E5%91%8A.png" width = 30% height = 30%>
+
 
 ### 4、多张轮播横幅Banner
 ```
@@ -63,12 +71,15 @@ urls.add("广告链接地址");
 mFeedsBannerMultiView.loadFeeds(image,urls);
 
 ```
+<img src="https://github.com/bmob/bmob-ad-demo/blob/master/%E8%BD%AE%E6%92%AD%E5%B9%BF%E5%91%8A.png" width = 30% height = 30%>
+
 ### 5、浮标悬浮窗
 ```
 //图片地址、广告地址
 mFdv.loadFeeds("图片素材地址","广告链接地址");
 ```
-<img src="https://github.com/bmob/bmob-ad-demo/blob/master/%E6%B5%AE%E6%A0%87%E5%B9%BF%E5%91%8A.png" width = 50% height = 50%>
+<img src="https://github.com/bmob/bmob-ad-demo/blob/master/%E6%B5%AE%E6%A0%87%E5%B9%BF%E5%91%8A.png" width = 30% height = 30%>
+
 ### 6、推送
 ```
 FeedsPush feedsPush = new FeedsPush(mContext);
