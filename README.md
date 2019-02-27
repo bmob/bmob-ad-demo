@@ -45,9 +45,10 @@ http://hd-site.lomark.cn/easytui/guaguale/
 流量主可以以任何形式的广告入口进入该链接的广告页面，目前只支持android平台的流量主接入，可以参考demo进行接入。
 
 五：计费
-
-六：收益
-
+活动页面结束领取优惠券，跳转到广告主页面后开始计费：
+![](https://github.com/bmob/bmob-ad-demo/blob/master/%E8%AE%A1%E8%B4%B9.jpg?raw=true)
+六：收益统计，每天更新：
+![](https://github.com/bmob/bmob-ad-demo/blob/master/%E6%94%B6%E7%9B%8A.jpg?raw=true)
 
 
 
