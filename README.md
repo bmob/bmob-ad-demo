@@ -68,6 +68,7 @@ mFeedsBannerMultiView.loadFeeds(image,urls);
 //图片地址、广告地址
 mFdv.loadFeeds("图片素材地址","广告链接地址");
 ```
+![](https://github.com/bmob/bmob-ad-demo/blob/master/%E6%B5%AE%E6%A0%87%E5%B9%BF%E5%91%8A.png)
 ### 6、推送
 ```
 FeedsPush feedsPush = new FeedsPush(mContext);
@@ -93,6 +94,7 @@ feedsPush.loadFeeds("广告链接地址");
 ## 七、合作流程 
 
 通过以下联系方式，告知应用名称、下载链接以及日活跃量。
+目前该广告仅限APP接入，暂时不支持小程序广告接入，后续完善了会通知大家。
 
 微信1：cloudid6666
 
