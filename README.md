@@ -44,4 +44,11 @@ http://hd-site.lomark.cn/easytui/guaguale/
 
 流量主可以以任何形式的广告入口进入该链接的广告页面，目前只支持android平台的流量主接入，可以参考demo进行接入。
 
+五：计费
+
+六：收益
+
+
+
+
 

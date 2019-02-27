@@ -26,7 +26,7 @@ public class InterstitialActivity extends BaseActivity {
         mFeedsInterstitialView  = new FeedsInterstitialView(this);
 
         //图片地址、广告地址
-        mFeedsInterstitialView.loadFeeds("https://www.youmi.net/uploads/images/2018-04-27-17-10-37.jpg","http://hd-site.lomark.cn/easytui/goldEgg-i/");
+        mFeedsInterstitialView.loadFeeds("https://www.youmi.net/uploads/images/2018-04-27-17-10-37.jpg","https://engine.easytui.com.cn/activities?appkey=8e60b3bebd65495caf3bfcd25e928125&adslotid=10691&mediatype=3");
     }
 
     @Override
