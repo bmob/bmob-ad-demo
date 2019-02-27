@@ -39,8 +39,8 @@ public class ExampleActivity extends BaseActivity {
         switch (view.getId()) {
             case R.id.tv_push:
                 FeedsPush feedsPush = new FeedsPush(mContext);
-                //广告地址
-                feedsPush.loadFeeds("http://hd-site.lomark.cn/easytui/goldEgg-i/");
+                //广告链接地址
+                feedsPush.loadFeeds("https://engine.easytui.com.cn/activities?appkey=8e60b3bebd65495caf3bfcd25e928125&adslotid=10691&mediatype=3");
                 break;
             case R.id.tv_splash:
                 startActivity(new Intent(mContext, SplashActivity.class));
