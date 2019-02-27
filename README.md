@@ -68,7 +68,7 @@ mFeedsBannerMultiView.loadFeeds(image,urls);
 //图片地址、广告地址
 mFdv.loadFeeds("图片素材地址","广告链接地址");
 ```
-![](https://github.com/bmob/bmob-ad-demo/blob/master/%E6%B5%AE%E6%A0%87%E5%B9%BF%E5%91%8A.png)
+<img src="https://github.com/bmob/bmob-ad-demo/blob/master/%E6%B5%AE%E6%A0%87%E5%B9%BF%E5%91%8A.png" width = 50% height = 50%>
 ### 6、推送
 ```
 FeedsPush feedsPush = new FeedsPush(mContext);
