@@ -50,7 +50,8 @@ http://hd-site.lomark.cn/easytui/guaguale/
 
 活动页面结束领取优惠券，跳转到广告主页面后开始计费，完成有效信息后再次计费：
 ![](https://github.com/bmob/bmob-ad-demo/blob/master/%E8%AE%A1%E8%B4%B9.jpg?raw=true)
-六：收益统计，每天更新：
+六：收益统计
+流量主提供Bmob应用的AppId，Bmob后台会每天更新收益情况：
 ![](https://github.com/bmob/bmob-ad-demo/blob/master/%E6%94%B6%E7%9B%8A.jpg?raw=true)
 
 
