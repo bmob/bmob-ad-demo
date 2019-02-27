@@ -27,7 +27,7 @@ https://engine.easytui.com.cn/activities?appkey=8e60b3bebd65495caf3bfcd25e928125
 
 参考地址：https://github.com/bmob/bmob-ad-demo
 
-其中图片素材可以使用通用素材：
+其中图片素材可以使用通用素材：https://github.com/bmob/bmob-ad-demo/blob/master/%E9%80%9A%E7%94%A8%E7%B4%A0%E6%9D%90.zip
 
 ### 1、开屏引导页
 ```
