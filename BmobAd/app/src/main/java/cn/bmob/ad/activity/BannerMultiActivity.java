@@ -31,8 +31,8 @@ public class BannerMultiActivity extends BaseActivity {
         image.add("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1545818085674&di=961e74b27356e30351ede94680ca2ae1&imgtype=0&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01a52958009e2ea84a0e282bd0d86c.jpg%402o.jpg");
 
         List<String> urls = new ArrayList<>();
-        urls.add("https://engine.easytui.com.cn/activities?appkey=8e60b3bebd65495caf3bfcd25e928125&adslotid=10691&mediatype=3");
-        urls.add("https://engine.easytui.com.cn/activities?appkey=8e60b3bebd65495caf3bfcd25e928125&adslotid=10691&mediatype=3");
+        urls.add("http://s.bmobpay.com/?sid=e3d0f4316602e322df99");
+        urls.add("http://s.bmobpay.com/?sid=e3d0f4316602e322df99");
         //图片地址、广告地址
         mFeedsBannerMultiView.loadFeeds(image,urls);
     }

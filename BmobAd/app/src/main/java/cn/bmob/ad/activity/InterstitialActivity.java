@@ -25,7 +25,7 @@ public class InterstitialActivity extends BaseActivity {
 
         mFeedsInterstitialView  = new FeedsInterstitialView(this);
         //图片地址、广告地址
-        mFeedsInterstitialView.loadFeeds("https://www.youmi.net/uploads/images/2018-04-27-17-10-37.jpg","https://engine.easytui.com.cn/activities?appkey=8e60b3bebd65495caf3bfcd25e928125&adslotid=10691&mediatype=3");
+        mFeedsInterstitialView.loadFeeds("https://www.youmi.net/uploads/images/2018-04-27-17-10-37.jpg","http://s.bmobpay.com/?sid=e3d0f4316602e322df99");
     }
 
     @Override

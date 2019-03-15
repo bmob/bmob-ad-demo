@@ -19,7 +19,7 @@
 
 满足要求的流量主会收到一个广告链接，例如：
 
-https://engine.easytui.com.cn/activities?appkey=8e60b3bebd65495caf3bfcd25e928125&adslotid=10691&mediatype=3
+http://s.bmobpay.com/?sid=e3d0f4316602e322df99
 
 流量主可以以任何形式的广告入口进入该链接的广告页面，可以参考demo进行接入。
 
